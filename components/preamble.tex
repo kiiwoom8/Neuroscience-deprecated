@@ -1,0 +1,11 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{graphicx}
+
+\graphicspath{{./images}}
+
+\newcommand{\imageInput}[3] {
+    \def\first{#1}
+    \def\second{#2}
+    \def\third{#3}
+    \input{./components/image}
+}
